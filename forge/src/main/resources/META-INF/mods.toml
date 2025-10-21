@@ -1,0 +1,35 @@
+modLoader = "javafml"
+loaderVersion = "[46,)"
+#issueTrackerURL = ""
+license = "MIT"
+
+[[mods]]
+modId = "allthecrops"
+version = "${version}"
+displayName = "AllTheCrops"
+authors = "space_mex"
+description = '''
+All The Crops - Adds A Lot For Crops For Farming
+'''
+#logoFile = ""
+
+[[dependencies.allthecrops]]
+modId = "forge"
+mandatory = true
+versionRange = "[46,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.allthecrops]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.allthecrops]]
+modId = "architectury"
+mandatory = true
+versionRange = "[9.2.14,)"
+ordering = "AFTER"
+side = "BOTH"

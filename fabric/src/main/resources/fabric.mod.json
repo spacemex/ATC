@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "allthecrops",
+  "version": "${version}",
+  "name": "AllTheCrops",
+  "description": "All The Crops - Adds A Lot For Crops For Farming",
+  "authors": ["space_mex"],
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/"  },
+  "license": "MIT",
+  "icon": "assets/allthecrops/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.github.spacemex.allthecrops.fabric.AllthecropsFabric"
+    ],
+    "client": [
+      "com.github.spacemex.allthecrops.fabric.client.AllthecropsFabricClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.14",
+    "minecraft": "~1.20",
+    "java": ">=17"
+    ,"architectury": ">=9.2.14"
+    ,"fabric-api": "*"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
