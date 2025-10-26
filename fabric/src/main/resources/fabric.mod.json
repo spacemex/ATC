@@ -16,6 +16,9 @@
     ],
     "client": [
       "com.github.spacemex.allthecrops.fabric.client.AllthecropsFabricClient"
+    ],
+    "fabric-datagen": [
+      "com.github.spacemex.allthecrops.data.ModDataGen"
     ]
   },
   "depends": {
